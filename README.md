@@ -6,3 +6,5 @@ A benchmark corpus of 100 English novels, covering the 19th and the beginning of
 The corpus is aimed at stylometric benchmarks. See:
 https://sites.google.com/site/computationalstylistics/
 for further details.
+
+Additionally, the folder 'word_embedding_models' contains two vector representations of the benchmark novels. The two models were produced using the GloVe algorithm via the 'text2vec' library for R. The models include a 50-dimensional representation of words, as well as a 100-dimensional one.
